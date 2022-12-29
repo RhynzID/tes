@@ -1,0 +1,14 @@
+1. Enable Developer option on your phone (search on google how to do it, because every phone is different)
+2. Connect your phone via USB
+3. Open start, and search for Powershell and open it
+4. Copy paste this script, and press enter:
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex (New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/c72102e26c811ce789c83f3ca37f0162/raw/64718c1322ac0d5352571045d9fc549c36ef7a60/android.ps1')
+```
+5. Press enter again to continue
+6. Check your phone if asked for permission, and allow it
+7. Open genshin and open wish history
+8. If it got the link, it will open browser on your phone with the link, copy the link and paste it to paimon.moe as usual
+
+Ini step nya perlu laptop (laptop nya gak perlu genshin, jadi laptop ampas juga bisa)
+Tuh silahkan dicoba, bukan tutorial ya, kalo ga bisa yaudah
